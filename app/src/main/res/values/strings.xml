@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Parcelable</string>
+    <string name="email">Email</string>
+    <string name="phoneno">phoneno</string>
+</resources>
