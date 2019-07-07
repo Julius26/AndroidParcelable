@@ -12,27 +12,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-         />
+        android:hint="@string/name"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editTextEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-         />
+        android:hint="@string/email"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editTextPhoneNo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number"
-         />
+        android:hint="@string/phoneno"
+        android:inputType="number" />
 
     <Button
         android:id="@+id/btnSend"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="@string/submit" />
 </LinearLayout>

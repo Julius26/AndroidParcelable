@@ -13,18 +13,21 @@
     <TextView
         android:id="@+id/first"
         android:layout_width="match_parent"
-        android:layout_height="90dp"
-        />
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/second"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:hint="@string/email"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/third"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:hint="@string/phoneno"
+        android:textSize="24sp" />
 </LinearLayout>
